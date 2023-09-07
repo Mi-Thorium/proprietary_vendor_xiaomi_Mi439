@@ -6,41 +6,15 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/Mi439
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.3.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/xiaomi/Mi439/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
-    vendor/xiaomi/Mi439/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/xiaomi/Mi439/proprietary/vendor/bin/mm-qjpeg-dec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-dec-test \
     vendor/xiaomi/Mi439/proprietary/vendor/bin/mm-qjpeg-enc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-enc-test \
     vendor/xiaomi/Mi439/proprietary/vendor/bin/mm-qomx-idec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-idec-test \
     vendor/xiaomi/Mi439/proprietary/vendor/bin/mm-qomx-ienc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-ienc-test \
-    vendor/xiaomi/Mi439/proprietary/vendor/bin/sensors.qti.olive:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti.olive \
-    vendor/xiaomi/Mi439/proprietary/vendor/bin/sensors.qti.pine:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti.pine \
-    vendor/xiaomi/Mi439/proprietary/vendor/bin/thermal-engine-olive:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine-olive \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Bluetooth_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_General_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Global_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Handset_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Hdmi_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Headset_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Speaker_cal.acdb \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_workspaceFile.qwsp \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_i.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_ii.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_iii.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/pine/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/overlayfs/pine/etc/camera/camera_config.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
@@ -310,43 +284,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/vdclear_hht_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_i.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/vdclear_hht_params_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_ii.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/vdclear_hht_params_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vdclear_hht_params_iii.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-camera.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-high.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-nolimits.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sgame.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/C3E_FT5446_Hnlens.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C3E_FT5446_Hnlens.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/C3E_FT5446_Truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C3E_FT5446_Truly.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b01 \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b02 \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.mdt \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87329_abrcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_abrcv.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87329_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_drcv.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87329_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_kspk.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87519_rcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_rcv.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87519_spk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_spk.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/gt1x_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1x_fw.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libVDClearShot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDClearShot.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
@@ -3452,25 +3389,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/libdirac-capiv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-capiv2.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/consumerir.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8937.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
@@ -3480,10 +3400,92 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
+    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.1.so \
+    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.2.so \
+    vendor/xiaomi/Mi439/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.3.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/xiaomi/Mi439/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
+    vendor/xiaomi/Mi439/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
+    vendor/xiaomi/Mi439/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
+    vendor/xiaomi/Mi439/proprietary/vendor/bin/thermal-engine-olive:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine-olive \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Bluetooth_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_General_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Global_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Handset_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Hdmi_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Headset_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_Speaker_cal.acdb \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/acdbdata/pine/SDM439_SKU1_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pine/SDM439_SKU1_workspaceFile.qwsp \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/olive/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/overlayfs/olive/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/pine/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/overlayfs/pine/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-camera.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-high.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-nolimits.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sgame.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/C3E_FT5446_Hnlens.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C3E_FT5446_Hnlens.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/C3E_FT5446_Truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C3E_FT5446_Truly.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b01 \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b02 \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a506_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.mdt \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87329_abrcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_abrcv.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87329_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_drcv.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87329_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_kspk.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87519_rcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_rcv.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/aw87519_spk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_spk.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/gt1x_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1x_fw.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/libdirac-capiv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-capiv2.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/consumerir.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8937.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/consumerir.umi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.umi.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
-    vendor/xiaomi/Mi439/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
@@ -3491,6 +3493,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 PRODUCT_PACKAGES += \
+    libsensor1 \
     uceShimService \
     com.qualcomm.qti.uceservice-V2.0-java \
     com.qualcomm.qti.uceservice-V2.1-java \
