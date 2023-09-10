@@ -14,8 +14,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_i.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_ii.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_iii.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/olive/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/overlayfs/olive/etc/camera/camera_config.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/pine/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/overlayfs/pine/etc/camera/camera_config.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/global_morpho_hht_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/global_morpho_hht_params_i.xml \
