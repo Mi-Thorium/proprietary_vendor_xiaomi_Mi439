@@ -155,17 +155,6 @@ special_mode_mask values:
       <A3Preview>olive_imx486_ofilm_bokeh_preview_3a</A3Preview>
       <A3Video>olive_imx486_ofilm_zsl_video</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="4">
-      <ISPPreview>olive_imx486_ofilm_preview</ISPPreview>
-      <ISPSnapshot>olive_imx486_ofilm_preview</ISPSnapshot>
-      <ISPVideo>olive_imx486_ofilm_default_video</ISPVideo>
-      <CPPPreview>olive_imx486_ofilm_cpp_preview</CPPPreview>
-      <CPPSnapshot>olive_imx486_ofilm_cpp_preview</CPPSnapshot>
-      <CPPVideo>olive_imx486_ofilm_cpp_video</CPPVideo>
-      <CPPLiveshot>olive_imx486_ofilm_cpp_liveshot</CPPLiveshot>
-      <A3Preview>olive_imx486_ofilm_a3_default_preview</A3Preview>
-      <A3Video>olive_imx486_ofilm_a3_default_video</A3Video>
-    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
 
